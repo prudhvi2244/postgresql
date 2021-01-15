@@ -42,14 +42,15 @@
     * numeric or numeric(p,s) is a real number with p digits with s number after the decimal point. The numeric(p,s) is the exact number.
 
 # Temporal data types
+
 * The temporal data types allow you to store date and /or  time data. PostgreSQL has five main temporal data types:
 
-    * DATEstores the dates only.
-    * TIMEstores the time of day values.
-    * TIMESTAMPstores both date and time values.
-    * TIMESTAMPTZ is a timezone-aware timestamp data type. It is the abbreviation for timestamp with the time zone.
-    * INTERVAL stores periods of time.
-    * The TIMESTAMPTZ is the PostgreSQL’s extension to the SQL standard’s temporal data types.
+        * DATE stores the dates only.
+        * TIME stores the time of day values.
+        * TIMESTAMP stores both date and time values.
+        * TIMESTAMPTZ is a timezone-aware timestamp data type. It is the abbreviation for timestamp with the time zone.
+        * INTERVAL stores periods of time.
+        * The TIMESTAMPTZ is the PostgreSQL’s extension to the SQL standard’s temporal data types.
 
 # Arrays
 * In PostgreSQL, you can store an array of strings, an array of integers, etc., in array columns. The array comes in handy in some situations e.g., storing days of the week, months of the year.
